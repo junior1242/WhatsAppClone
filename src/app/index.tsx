@@ -1,13 +1,12 @@
-import { View, Text, Image } from 'react-native'
+import { View, Text } from 'react-native'
 import React from 'react'
-import imagePath from '../constants/imagePath'
 
-const Home = () => {
+const index = () => {
   return (
     <View>
-      <Image source={imagePath.react_logo}/>
+      <Text>index</Text>
     </View>
   )
 }
 
-export default Home
+export default index
