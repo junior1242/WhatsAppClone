@@ -1,12 +1,12 @@
 import React from 'react'
 import { Stack } from 'expo-router'
 
-const _layout = () => {
+const RootNavigation = () => {
   return (
     <Stack screenOptions={{headerShown:false}}>
-      <Stack.Screen/>
+      <Stack.Screen name="index"/>
     </Stack>
   )
 }
 
-export default _layout
+export default RootNavigation
